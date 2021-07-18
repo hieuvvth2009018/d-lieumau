@@ -20,47 +20,47 @@ class ProductSeeder extends Seeder
         DB::table('products')->insert([
             [
                 'id'=>1,
-                'name'=>' banh da cua',
+                'name'=>' ô tô',
                 'price'=>2000,
                 'created_at'=>Carbon::now()->addDays(1)
             ],[
                 'id'=>2,
-                'name'=>' banh chung',
+                'name'=>' xếp hình',
                 'price'=>3000,
                 'created_at'=>Carbon::now()->addDays(1)
             ],[
                 'id'=>3,
-                'name'=>' lạc vung',
+                'name'=>' bắn súng',
                 'price'=>4000,
                 'created_at'=>Carbon::now()->addDays(1)
             ],[
                 'id'=>5,
-                'name'=>' bún bò huế',
+                'name'=>' rubik',
                 'price'=>5000,
                 'created_at'=>Carbon::now()->addDays(1)
             ],[
                 'id'=>6,
-                'name'=>'  da cua',
+                'name'=>'  cờ cá ngựa',
                 'price'=>6000,
                 'created_at'=>Carbon::now()->addDays(1)
             ],[
                 'id'=>7,
-                'name'=>' phở',
+                'name'=>' bi -a',
                 'price'=>7000,
                 'created_at'=>Carbon::now()->addDays(1)
             ],[
                 'id'=>8,
-                'name'=>' cơm rang',
+                'name'=>' rút gỗ',
                 'price'=>8000,
                 'created_at'=>Carbon::now()->addDays(1)
             ],[
                 'id'=>9,
-                'name'=>' banh mỳ',
+                'name'=>' công chúa ',
                 'price'=>9000,
                 'created_at'=>Carbon::now()->addDays(1)
             ],[
                 'id'=>10,
-                'name'=>' xôi',
+                'name'=>' nấu ăn ',
                 'price'=>10000,
                 'created_at'=>Carbon::now()->addDays(1)
             ]

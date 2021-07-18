@@ -20,27 +20,27 @@ class CustomerSeeder extends Seeder
                 DB::table('customers')->insert([
                     [
                         'id'=>1,
-                        'name'=>'khu vui choi',
+                        'name'=>'hoàng hà',
                         'address'=>'số 8 hoàn kiếm hà nội ',
                         'created_at'=>Carbon::now()->addDays(1)
                     ],[
                         'id'=>2,
-                        'name'=>'sân vận động mỹ đình ',
+                        'name'=>'hoàng mai ',
                         'address'=>'số 9 hồ tùng mậu',
                         'created_at'=>Carbon::now()->addDays(1)
                     ],[
                         'id'=>3,
-                        'name'=>'trường sĩ quan chính trị ',
+                        'name'=>'hải hòa ',
                         'address'=>'thạch thát hà nội  ',
                         'created_at'=>Carbon::now()->addDays(1)
                     ],[
                         'id'=>4,
-                        'name'=>'khu jopga',
+                        'name'=>'hải lợi',
                         'address'=>'nguyễn trãi -hà nội ',
                         'created_at'=>Carbon::now()->addDays(1)
                     ],[
                         'id'=>5,
-                        'name'=>'siêu thị ',
+                        'name'=>'hải sâm ',
                         'address'=>'19-hoàn kiếm -hà nội ',
                         'created_at'=>Carbon::now()->addDays(1)
                     ]
